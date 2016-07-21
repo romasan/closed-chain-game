@@ -1,0 +1,26 @@
+<head>
+<link rel="stylesheet" href="css.css"/>
+<script src="jquery.min.js"></script>
+<script src="gameengine.js"></script>
+<script src="levels.js"></script>
+</head>
+<body>
+	<!--
+	<div id="mapsplash"></div>
+	-->
+	<div id="help" class="hidden"></div>
+	<div id="gamescreen" class="hidden">
+		<div id="pointsbar">
+			Level: <span id="level">0</span>
+			Points: <span id="points">0</span>
+		</div>
+		<div id="map"></div>
+		<div id="resetbut" onclick="Game.startgame();"></div>
+	</div>
+	<div id="startscreen">
+		<div id="playbutton"></div>
+	</div>
+	<div id="youwin" class="hidden">
+		YOU WIN!
+	</div>
+</body>
